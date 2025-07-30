@@ -1,7 +1,20 @@
 
+
+<p align="center">
+  <img src="assets/images/logo.png" alt="LandMappin Logo" width="120" />
+</p>
+
 # LandMappin
 
-LandMappin is a sleek indoor/outdoor navigation solution for overlaying custom architectural or landscape images on Google Maps, with geo-referenced points and real-time navigation. Built with Flutter, it is designed for beautiful, animated, and maintainable user experiences.
+<p align="center">
+  <a href="https://flutter.dev"><img src="https://img.shields.io/badge/Flutter-3.22-blue?logo=flutter" alt="Flutter"></a>
+  <a href="https://pub.dev/packages/hive"><img src="https://img.shields.io/badge/Hive-DB-yellow?logo=hive" alt="Hive DB"></a>
+  <a href="https://pub.dev/packages/google_maps_flutter"><img src="https://img.shields.io/badge/Google%20Maps-Plugin-green?logo=googlemaps" alt="Google Maps Flutter"></a>
+  <a href="https://pub.dev/packages/noto_sans"><img src="https://img.shields.io/badge/Noto%20Sans-Font-black?logo=googlefonts" alt="Noto Sans"></a>
+  <a href="https://github.com/iyinusa/landmappin/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="Apache 2.0 License"></a>
+</p>
+
+LandMappin is a sleek indoor/outdoor navigation solution for overlaying custom architectural or landscape images on Google Maps, with geo-referenced points and real-time navigation.
 
 ## Features
 
@@ -27,7 +40,25 @@ LandMappin is a sleek indoor/outdoor navigation solution for overlaying custom a
                            └── Render Polyline on Google Maps
 ```
 
-## Getting Started
+
+
+## Import Demo Map
+
+LandMappin includes an **Import Demo** feature in the app settings. This allows you to quickly try the app with a pre-configured demo map:
+
+1. Open the app and go to **Settings**.
+2. Tap **Import Demo**.
+3. The demo map and data will be loaded, so you can explore navigation and features without manual setup.
+
+
+You can quickly try LandMappin on your Android device:
+
+- [Download LandMappin.apk from the repository root](./LandMappin.apk)
+- Or [download from Google Drive](https://drive.google.com/file/d/1f-etWV2puttWS2ZZI8SmhJZn--WVW3MY/view?usp=sharing)
+
+After downloading, transfer the APK to your device and install it. You may need to enable installation from unknown sources in your device settings.
+
+---
 
 ### Prerequisites
 - [Flutter SDK](https://flutter.dev/docs/get-started/install)
@@ -47,6 +78,21 @@ LandMappin is a sleek indoor/outdoor navigation solution for overlaying custom a
    ```sh
    flutter run
    ```
+
+
+### Google Maps API Key Setup (Android)
+
+To enable Google Maps, you must add your API key to the Android project:
+
+1. Open `android/app/src/main/AndroidManifest.xml`.
+2. Inside the `<application>` tag, add:
+   ```xml
+   <meta-data
+       android:name="com.google.android.geo.API_KEY"
+       android:value="YOUR_API_KEY_HERE" />
+   ```
+3. Replace `YOUR_API_KEY_HERE` with your actual Google Maps API key.
+4. For more details, see the [Google Maps Flutter documentation](https://pub.dev/packages/google_maps_flutter).
 
 ### Assets & Fonts
 - All images and fonts are located in the `assets/` directory.
@@ -94,4 +140,4 @@ Contributions are welcome! Please open issues or submit pull requests for improv
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
