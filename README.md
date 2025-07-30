@@ -151,6 +151,11 @@ test/
 
 Contributions are welcome! Please open issues or submit pull requests for improvements, bug fixes, or new features.
 
+
+## Acknowledgements
+
+Special thanks to [Lost Shore Surf Resort](https://www.lostshore.com/) for providing the resort map used in this project. Lost Shore Surf Resort is a world-class surf destination near Edinburgh, Scotland, offering luxury accommodation, surf schools, wellness treatments, and more. Their support and resources have been invaluable to LandMappin.
+
 ## License
 
 This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
