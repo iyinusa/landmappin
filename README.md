@@ -17,16 +17,16 @@ LandMappin is a sleek indoor/outdoor navigation solution for overlaying custom a
 # Screenshots
 
 <p align="center">
-  <img src="screenshots/screenshot1.png" alt="Screenshot 1" width="200" style="margin:8px;" />
-  <img src="screenshots/screenshot2.png" alt="Screenshot 2" width="200" style="margin:8px;" />
-  <img src="screenshots/screenshot3.png" alt="Screenshot 3" width="200" style="margin:8px;" />
-  <img src="screenshots/screenshot4.png" alt="Screenshot 4" width="200" style="margin:8px;" />
+  <img src="screenshots/1. Projects.png" alt="1. Projects" width="200" style="margin:8px;" />
+  <img src="screenshots/2. Coordinate Mapping.png" alt="2. Coordinate Mapping" width="200" style="margin:8px;" />
+  <img src="screenshots/3. Custom Map Overlaying.png" alt="3. Custom Map Overlaying" width="200" style="margin:8px;" />
+  <img src="screenshots/4. Map Coordinates Embedded.png" alt="4. Map Coordinates Embedded" width="200" style="margin:8px;" />
 </p>
 <p align="center">
-  <img src="screenshots/screenshot5.png" alt="Screenshot 5" width="200" style="margin:8px;" />
-  <img src="screenshots/screenshot6.png" alt="Screenshot 6" width="200" style="margin:8px;" />
-  <img src="screenshots/screenshot7.png" alt="Screenshot 7" width="200" style="margin:8px;" />
-  <img src="screenshots/screenshot8.png" alt="Screenshot 8" width="200" style="margin:8px;" />
+  <img src="screenshots/5. Engaging Manu.png" alt="5. Engaging Manu" width="200" style="margin:8px;" />
+  <img src="screenshots/6. Custom Path Navigation.png" alt="6. Custom Path Navigation" width="200" style="margin:8px;" />
+  <img src="screenshots/7. Location Finder.png" alt="7. Location Finder" width="200" style="margin:8px;" />
+  <img src="screenshots/8. Satellite View.png" alt="8. Satellite View" width="200" style="margin:8px;" />
 </p>
 
 ## Features
