@@ -4,8 +4,6 @@
   <img src="assets/images/logo.png" alt="LandMappin Logo" width="120" />
 </p>
 
-# LandMappin
-
 <p align="center">
   <a href="https://flutter.dev"><img src="https://img.shields.io/badge/Flutter-3.22-blue?logo=flutter" alt="Flutter"></a>
   <a href="https://pub.dev/packages/hive"><img src="https://img.shields.io/badge/Hive-DB-yellow?logo=hive" alt="Hive DB"></a>
@@ -15,6 +13,21 @@
 </p>
 
 LandMappin is a sleek indoor/outdoor navigation solution for overlaying custom architectural or landscape images on Google Maps, with geo-referenced points and real-time navigation.
+
+# Screenshots
+
+<p align="center">
+  <img src="screenshots/screenshot1.png" alt="Screenshot 1" width="200" style="margin:8px;" />
+  <img src="screenshots/screenshot2.png" alt="Screenshot 2" width="200" style="margin:8px;" />
+  <img src="screenshots/screenshot3.png" alt="Screenshot 3" width="200" style="margin:8px;" />
+  <img src="screenshots/screenshot4.png" alt="Screenshot 4" width="200" style="margin:8px;" />
+</p>
+<p align="center">
+  <img src="screenshots/screenshot5.png" alt="Screenshot 5" width="200" style="margin:8px;" />
+  <img src="screenshots/screenshot6.png" alt="Screenshot 6" width="200" style="margin:8px;" />
+  <img src="screenshots/screenshot7.png" alt="Screenshot 7" width="200" style="margin:8px;" />
+  <img src="screenshots/screenshot8.png" alt="Screenshot 8" width="200" style="margin:8px;" />
+</p>
 
 ## Features
 
