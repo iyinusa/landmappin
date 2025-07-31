@@ -39,37 +39,22 @@ LandMappin is a sleek indoor/outdoor navigation solution for overlaying custom a
 - **Multiple Map Projects:** Store multiple projects and their mappings using Hive DB.
 - **Beautiful UI:** Modern, animated, and visually appealing design using Noto Sans font and a black/white color scheme.
 
-## Architecture
+## Try LandMappin
 
-```
-[Overlay Image]
-    |
-    └── Define Paths (LatLng pairs)
-           |
-           └── Store in Hive DB
-                  |
-                  └── A* Pathfinding for navigation
-                           |
-                           └── Render Polyline on Google Maps
-```
-
-
-
-## Import Demo Map
-
-LandMappin includes an **Import Demo** feature in the app settings. This allows you to quickly try the app with a pre-configured demo map:
-
-1. Open the app and go to **Settings**.
-2. Tap **Import Demo**.
-3. The demo map and data will be loaded, so you can explore navigation and features without manual setup.
-
-
-You can quickly try LandMappin on your Android device:
+You can try LandMappin on your Android device:
 
 - [Download LandMappin.apk from the repository root](./LandMappin.apk)
 - Or [download from Google Drive](https://drive.google.com/file/d/1f-etWV2puttWS2ZZI8SmhJZn--WVW3MY/view?usp=sharing)
 
-After downloading, transfer the APK to your device and install it. You may need to enable installation from unknown sources in your device settings.
+We strongly recommend **Download from Google Drive** because the APK will be scanned by Google before installing on your device, for safety. 
+
+You may need to enable installation from unknown sources in your device settings.
+
+LandMappin includes an **Import Demo** feature in the app settings. This allows you to quickly try the app with a pre-configured demo map:
+
+1. Open the app and go to **Settings** icon, at the top right of the app.
+2. Tap **Import Demo Data**, to import pre-configured overlay floorplan.
+3. The demo map and data will be loaded, so you can explore navigation and features without manual setup below.
 
 ---
 
